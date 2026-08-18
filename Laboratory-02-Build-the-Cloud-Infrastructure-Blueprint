@@ -1,0 +1,8 @@
+cd CCM101-bdeguzman
+mkdir -p "Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/screenshots"
+cd "Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint"
+touch README.md infrastructure-report.md cloud-components.md cloud-provider-comparison.md reflection.md
+cd ..
+git add .
+git commit -m "Checkpoint 1: Create Lab 2 folder structure"
+git push
