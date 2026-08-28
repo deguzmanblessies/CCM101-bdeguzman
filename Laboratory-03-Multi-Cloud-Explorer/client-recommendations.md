@@ -37,3 +37,14 @@
 - Amazon EC2 with Auto Scaling (handling traffic spikes automatically)
 - Amazon CloudFront (fast global content delivery via CDN)
 - Amazon RDS (reliable, managed database for order/customer data)
+
+## Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | Low-cost entry with flexible scaling |
+| Enterprise Organization | AWS | Broadest range of services and proven reliability |
+| Microsoft Environment | Azure | Best integration with Microsoft tools |
+| AI / Machine Learning | GCP | Strongest AI/ML tools and infrastructure |
+| Kubernetes Deployment | GCP | GKE, since Google created Kubernetes |
+| Global Web Application | AWS | Widest global infrastructure with auto-scaling |
