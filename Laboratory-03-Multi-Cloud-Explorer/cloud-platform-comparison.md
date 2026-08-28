@@ -22,3 +22,13 @@ I learned to match a platform's strengths to a client's actual problem instead o
 
 5. How has your GitHub Cloud Computing Portfolio improved after completing this mission?
 My portfolio now shows I can compare multiple cloud providers and organize technical documentation clearly using Markdown, tables, and screenshots.
+
+## Equivalent Services
+
+| Service Category | AWS | Azure | GCP |
+|---|---|---|---|
+| Virtual Machine | EC2 | Virtual Machines | Compute Engine |
+| Object Storage | S3 | Blob Storage | Cloud Storage |
+| Identity Management | IAM | Microsoft Entra ID | Cloud IAM |
+| SQL Database | RDS | Azure SQL Database | Cloud SQL |
+| Kubernetes | EKS | AKS | GKE |
