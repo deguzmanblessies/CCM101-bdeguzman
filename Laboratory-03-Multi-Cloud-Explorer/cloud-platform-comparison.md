@@ -1,12 +1,12 @@
 | Category | AWS | Microsoft Azure | Google Cloud Platform |
 |---|---|---|---|
-| Launch Year | | | |
-| Compute Service | | | |
-| Storage Service | | | |
-| Networking Service | | | |
-| Identity Service | | | |
-| Primary Strength | | | |
-| Ideal Organizations | | | |
+| Launch Year | 2006 | 2010 | 2008 |
+| Compute Service | EC2 | Virtual Machines | Compute Engine |
+| Storage Service | S3 | Blob Storage | Cloud Storage |
+| Networking Service | VPC | Virtual Network | VPC |
+| Identity Service | IAM | Microsoft Entra ID (Azure AD) | Cloud IAM |
+| Primary Strength | Broadest service range | Microsoft integration | AI/ML & Kubernetes |
+| Ideal Organizations | Startups to large enterprises | Microsoft-based businesses | AI/data-driven companies |
 
 1. Which cloud platform impressed you the most?
 GCP impressed me the most, especially its AI/ML tools and Kubernetes support, since Google created Kubernetes itself.
