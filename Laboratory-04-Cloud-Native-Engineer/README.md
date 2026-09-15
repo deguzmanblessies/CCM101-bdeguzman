@@ -26,9 +26,9 @@ using Docker on a KillerCoda terminal and documented the commands used.
 | `docker rm my-nginx` | Removes the container. |
 
 ## Screenshots
-- `screenshots/docker-version.png`
-- `screenshots/nginx-running.png`
-- `screenshots/container-lifecycle.png`
+![Docker Version](screenshots/docker-version.png)
+![Nginx Running](screenshots/nginx-running.png)
+![Container Lifecycle](screenshots/container-lifecycle.png)
 
 ## Skills Learned
 - Understanding how containers differ from virtual machines.
