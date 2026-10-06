@@ -6,3 +6,7 @@
 ```
 
 Application logs record every request and error, so they show exactly what happened and when. This helps engineers quickly find the cause of a problem and fix it.
+
+## Container Metrics (client-website)
+- **Memory Usage:** 2.73MiB
+- **CPU Percentage:** 0.00%
