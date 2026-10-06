@@ -1,5 +1,22 @@
-# Mission Reflection
+# 💭 Mission Reflection
 
-  Writing a docker-compose.yml file makes a cloud engineer's job much easier because everything is defined once in a single file and deployed with one command, instead of typing long commands for every container. This reduces typing mistakes, saves time, and makes the setup repeatable, since the file can be stored in GitHub, shared with teammates, and reused on any machine. However, YAML is strict about formatting. 
-  If you use a Tab instead of Spaces or misalign the indentation, Docker Compose refuses to deploy and shows a parsing error. I experienced this during the lab when pasting into nano shifted my spacing and produced the error "mapping values are not allowed here," so I had to recreate the file and check it with cat before it worked. We also used environment variables such as MYSQL_PASSWORD to pass settings into the containers when they start, without changing the images themselves.     They allowed the database to create the correct user, password, and database, and told Nextcloud how to connect to it, which keeps the images reusable and makes settings easy to change. Deploying a fully functional enterprise cloud storage system in just a few minutes felt rewarding, especially after fixing the errors. I expected something this complex to take hours of installing and configuring software, so seeing the Nextcloud setup page appear after one command showed me how powerful containers and automation are. 
-    Since Mission 1, my understanding of cloud computing has changed a lot. I used to think it was mostly about storing files online, but now I understand it involves deploying, managing, and automating real infrastructure using containers, storage, and code. I also learned that troubleshooting is a big part of the job. I have moved from typing individual commands to thinking like an engineer who builds repeatable, reliable systems with Infrastructure as Code.
+**Laboratory 6: The Cloud Deployment Engineer**
+**Course:** CCM101 – Cloud Computing
+
+---
+
+## Reflection
+
+Writing a `docker-compose.yml` file makes a cloud engineer's job much easier because everything is defined once in a single file and deployed with one command, instead of typing long commands for every container. This reduces typing mistakes, saves time, and makes the setup repeatable, since the file can be stored in GitHub, shared with teammates, and reused on any machine.
+
+However, YAML is strict about formatting. If you use a Tab instead of Spaces or misalign the indentation, Docker Compose refuses to deploy and shows a parsing error. I experienced this during the lab when pasting into nano shifted my spacing and produced the error *"mapping values are not allowed here."* I had to recreate the file and check it with `cat` before it worked.
+
+We also used environment variables such as `MYSQL_PASSWORD` to pass settings into the containers when they start, without changing the images themselves. They allowed the database to create the correct user, password, and database, and told Nextcloud how to connect to it. This keeps the images reusable and makes settings easy to change.
+
+Deploying a fully functional enterprise cloud storage system in just a few minutes felt rewarding, especially after fixing the errors. I expected something this complex to take hours of installing and configuring software, so seeing the Nextcloud setup page appear after one command showed me how powerful containers and automation are.
+
+Since Mission 1, my understanding ofcloud computing has changed a lot. I used to think it was mostly about storing files online, but now I understand it involves deploying, managing, and automating real infrastructure using containers, storage, and code. I also learned that troubleshooting is a big part of the job. I have moved from typing individual commands to thinking like an engineer who builds repeatable, reliable systems with Infrastructure as Code.
+
+---
+
+> *"A junior engineer deploys servers by typing commands; a senior engineer deploys infrastructure by writing code."*
