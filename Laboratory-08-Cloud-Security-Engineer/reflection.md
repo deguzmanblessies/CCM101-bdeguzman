@@ -19,8 +19,6 @@
 
 ## ✍️ 
 
-> *"Security is not a product you buy; it is a continuous process you maintain."*
-
 Before this mission, I thought securing a server was complicated. After finishing it, I learned that good security starts with a few simple commands and a careful way of thinking.
 
 A host-based firewall protects the server itself, not just the network around it. Even if an attacker gets past the network perimeter, the firewall on the server still checks every connection and blocks anything that is not allowed. It is like putting a lock on every room in a building, not only on the front gate.
@@ -33,8 +31,3 @@ My GitHub portfolio now has eight laboratory missions, and each one has its own 
 
 ---
 
-<div align="center">
-
-🔒 *Default Deny · Least Privilege · Smaller Attack Surface* 🔒
-
-</div>
