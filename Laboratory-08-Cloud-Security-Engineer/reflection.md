@@ -1,9 +1,9 @@
 <div align="center">
 
-# 🛡️ Mission Reflection
+# Mission Reflection
 ### Laboratory 08: The Cloud Security Engineer
 
-**CCM101 – Cloud Computing** · University of Eastern Pangasinan
+**CCM101 – Cloud Computing** 
 
 </div>
 
@@ -11,13 +11,13 @@
 
 | | |
 |---|---|
-| **Name** | *Your Name Here* |
+| **Name** | *Blessie C. De Guzman* |
 | **Mission** | Securing a server with UFW |
 | **Tools Used** | KillerCoda · Docker · Nginx · UFW |
 
 ---
 
-## ✍️ Essay: Locking the Doors
+## ✍️ 
 
 > *"Security is not a product you buy; it is a continuous process you maintain."*
 
