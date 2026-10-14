@@ -1,16 +1,40 @@
-# Mission Reflection
+<div align="center">
 
-**1. How does a host-based firewall protect a server if the network perimeter is breached?**
-A host-based firewall protects the server itself. Even if someone gets inside the network, they still cannot reach the server's services unless a rule allows it. It is like having a lock on every room, not just on the front gate.
+# 🛡️ Mission Reflection
+### Laboratory 08: The Cloud Security Engineer
 
-**2. Why is managing open ports important for the attack surface?**
-Every open port is a possible door for attackers. Each open port runs a service, and a service can have bugs or weak passwords. When I only left ports 22 and 8080 open, there were fewer ways to attack the server. This is like the Principle of Least Privilege, but for the network.
+**CCM101 – Cloud Computing** · University of Eastern Pangasinan
 
-**3. Why is it dangerous to leave a database port like 3306 open to the public?**
-Bots scan the internet all the time looking for open database ports and try to guess passwords. If they get in, they can steal, change, or delete customer data. This can cause data breaches, legal trouble, and loss of trust. A database should only be reachable from the app server or through a private network or VPN.
+</div>
 
-**4. How did this mission change my view on how easily a server can be compromised?**
-Before, I thought a server was safe if nobody knew about it. Now I understand that a new server with no firewall is exposed right away, and automated attacks can find it in minutes. One forgotten setting can leave it wide open. A firewall only takes a few commands, so there is no reason to skip it.
+---
 
-**5. How does my GitHub portfolio look with eight missions?**
-My portfolio now has eight laboratory folders, from Laboratory 01 to Laboratory 08. Each one has its own README, documents, and screenshots. Together they show my progress from learning basic cloud ideas to deploying, monitoring, and securing a live server. It looks organized.
+| | |
+|---|---|
+| **Name** | *Your Name Here* |
+| **Mission** | Securing a server with UFW |
+| **Tools Used** | KillerCoda · Docker · Nginx · UFW |
+
+---
+
+## ✍️ Essay: Locking the Doors
+
+> *"Security is not a product you buy; it is a continuous process you maintain."*
+
+Before this mission, I thought securing a server was complicated. After finishing it, I learned that good security starts with a few simple commands and a careful way of thinking.
+
+A host-based firewall protects the server itself, not just the network around it. Even if an attacker gets past the network perimeter, the firewall on the server still checks every connection and blocks anything that is not allowed. It is like putting a lock on every room in a building, not only on the front gate.
+
+Managing open ports is important because every open port is a possible door into the server. Each port runs a service, and a service can have bugs or weak passwords. By keeping only SSH and port 8080 open, I made the attack surface smaller. This is also why leaving a database port like 3306 open to the public internet is dangerous in a real company. Bots scan the internet all day looking for open databases and try to guess passwords. If they get in, they can steal, change, or delete customer data, which can lead to data breaches, legal trouble, and loss of trust. A database should only be reachable by the app server or through a private network.
+
+This mission also changed how I see server security. I used to think a server was safe if nobody knew about it. Now I know that a new server with no firewall is exposed right away, and automated attacks can find it within minutes. One forgotten setting is enough to leave it wide open.
+
+My GitHub portfolio now has eight laboratory missions, and each one has its own README, documents, and screenshots. Together they show my growth from learning basic cloud ideas to deploying, monitoring, and securing a live server. It looks organized, and I am proud to show it. In the end, I learned that security is not something I do once, but something I keep doing.
+
+---
+
+<div align="center">
+
+🔒 *Default Deny · Least Privilege · Smaller Attack Surface* 🔒
+
+</div>
