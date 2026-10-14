@@ -27,5 +27,3 @@ sudo ufw status numbered
 - Using default deny and opening only the ports needed
 - Testing a service with curl
 - Writing technical documentation in Markdown
-
-*Note: I used AI to help me understand the topic and draft my notes, then edited them myself.*
