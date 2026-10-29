@@ -53,13 +53,9 @@ Open `http://localhost:8080` on the host.
 
 ## Evidence (screenshots)
 Add screenshots to a `screenshots/` folder and link them here:
-- [ ] `docker --version` and `docker compose version`
-- [ ] `docker compose ps` (both containers up, DB healthy)
-- [ ] WordPress site in the host browser
-- [ ] Test post surviving `docker compose down` / `up -d`
-- [ ] Test post surviving a VM reboot
-- [ ] `sudo ufw status verbose`
-- [ ] Backup files in `~/cloudnova-backups`
-- [ ] Self-healing test log
-- [ ] `crontab -l`
+![Docker Compose Ps](docker-compose-ps.png)
+![Ufw Status Verbose](ufw-status-verbose.png)
+![Backup Script and Files](backup-script-and-files.png)
+![Crontab and Journal](crontab-and-journalctl.png)
+![Port Forwarding](port-forwarding.png)
 
