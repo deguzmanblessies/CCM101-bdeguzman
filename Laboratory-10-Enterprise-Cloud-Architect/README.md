@@ -51,11 +51,4 @@ docker compose ps
 ```
 Open `http://localhost:8080` on the host.
 
-## Evidence (screenshots)
-Add screenshots to a `screenshots/` folder and link them here:
-![Docker Compose Ps](docker-compose-ps.png)
-![Ufw Status Verbose](ufw-status-verbose.png)
-![Backup Script and Files](backup-script-and-files.png)
-![Crontab and Journal](crontab-and-journalctl.png)
-![Port Forwarding](port-forwarding.png)
 
